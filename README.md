@@ -7,7 +7,7 @@ The code is written to run on an HPC cluster using the R package "batchtools". A
 
 ## How to run
 
-R code files are to be run in sequence from 1 to 8. The subfolder "code_to_source" defines some additional wrapper functions for batchtools. "results.RData" and "plots" contain the final results and plots used in the pre-print. "0_reload.R" will reload the batchtools registry after restarting R.
+R code files are to be run in sequence from 1 to 8. The subfolder "code_to_source" defines some additional wrapper functions for batchtools. "results.RData" and "plots" contain the final results and plots used for the pre-print. "0_reload.R" will reload the batchtools registry after restarting R.
 
 - "1_makereg.R" creates the batchtools registry and installs required packages. By default it is placed in a folder "~/multiness_sims/".
 
